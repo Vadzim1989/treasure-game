@@ -1,0 +1,35 @@
+#map_wrapper {
+    width: 700px;
+    margin: 50px auto;
+}
+
+#map_wrapper > img {
+    width: 100%;
+}
+
+#hint {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+#hint.winter {
+    color: lightskyblue;
+}
+
+#hint.cold {
+    color: blue;
+}
+
+#hint.medium {
+    color: burlywood;
+}
+
+#hint.warm {
+    color: salmon;
+}
+
+#hint.hot {
+    color: red;
+}
