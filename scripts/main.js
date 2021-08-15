@@ -1,10 +1,5 @@
-import {generateTreasureCoords} from './utils/generateTreasureCoords.js';
-import {getDistanceToTreasure} from './utils/getDistanceToTreasure.js';
+import {mapClickHandler} from './utils/gameHelpers.js';
 
+const treasureMap = document.querySelector('[alt="map"]');
 
-const hint = document.getElementById('hint');
-const treasureMap = document.querySelector('[alt="treasure_map"]');
-
-
-console.log(getDistanceToTreasure({x: 2, y: 3}, {x: 5, y: 6}));
-console.log(generateTreasureCoords({width:450, heigth:500}, 20));
+treasureMap.addEventListener('click', mapClickHandler);

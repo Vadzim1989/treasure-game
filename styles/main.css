@@ -1,6 +1,29 @@
+.popup {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 200px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.start {
+    border: 1px solid #2d2d2d;
+    border-radius: 10px;
+    font-size: 22px;
+    transition: all 0.5s ease;
+    background-color: dimgray;
+    color: #fff;
+}
+
+.start:hover {
+    background-color: indianred;
+}
+
 #map_wrapper {
-    width: 700px;
+    width: 550px;
     margin: 50px auto;
+    position: relative;
 }
 
 #map_wrapper > img {
@@ -10,7 +33,7 @@
 #hint {
     font-size: 40px;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'segoe ui', sans-serif;
     text-transform: uppercase;
 }
 
@@ -23,11 +46,11 @@
 }
 
 #hint.medium {
-    color: burlywood;
+    color: #2d2d2d;
 }
 
 #hint.warm {
-    color: salmon;
+    color: salmon;    
 }
 
 #hint.hot {
